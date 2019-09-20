@@ -16,8 +16,8 @@ This package is non-official and only provides a notification channel for JANDI 
 
 ## Requirement
 
-- PHP >= 7.1.3
-- Laravel 5.8+
+- PHP >= 7.2
+- Laravel 5.8+ or 6.0
 
 
 ## Installation
