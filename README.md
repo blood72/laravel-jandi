@@ -208,7 +208,7 @@ and you can customize like this. in this case, a request will be sent to each UR
             ```
         - of course, it can be done in a simple string form.  
             ```php
-            Jandi::send('hello test')
+            Jandi::send('hello test');
             ```
         - you can set other notification class if you don't want to use default one.
             ```php
@@ -218,11 +218,11 @@ and you can customize like this. in this case, a request will be sent to each UR
     - to(): you can specify the recipient URL(s).  
         - by string  
             ```php
-            Jandi::to('jandi-webhook-url')->content('hello test');
+            Jandi::to('jandi-webhook-url')->send('hello test');
              ```
         - by multiple params  
             ```php
-            Jandi::to('jandi-webhook-url-1', 'jandi-webhook-url-2')->content('hello test');
+            Jandi::to('jandi-webhook-url-1', 'jandi-webhook-url-2')->send('hello test');
             ```
         - by array  
             ```php
