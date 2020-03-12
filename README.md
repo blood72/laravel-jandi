@@ -1,4 +1,4 @@
-# JANDI notification channel for Laravel 5, 6
+# JANDI notification channel for Laravel 5, 6, 7
 
 [JANDI](https://www.jandi.com) is business collaboration messenger tool made by Toss Lab, Inc.  
 This package is non-official and only provides a notification channel for JANDI incoming webhook connection.
@@ -17,7 +17,7 @@ This package is non-official and only provides a notification channel for JANDI 
 ## Requirement
 
 - PHP >= 7.2
-- Laravel 5.8+ or 6.*
+- Laravel 5.8+, 6.* or 7.*
 
 
 ## Installation
